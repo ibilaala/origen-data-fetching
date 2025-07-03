@@ -1,8 +1,3 @@
----
-
-## Proyecto 1: Data Fetching y Manipulación (Node.js)
-
-```markdown
 # Data Filtering & Analysis with Node.js
 
 Este script implementa un ejercicio técnico basado en el uso de una API pública, donde se realiza:
@@ -13,26 +8,29 @@ Este script implementa un ejercicio técnico basado en el uso de una API públic
 - Agrupación y conteo de datos por edad, género y región
 - Visualización de resultados en consola
 
-## API usada
+## API utilizada
 
 - https://fakerapi.it/en#persons
 
-## ⚙Tecnologías
+## Tecnologías
 
 - Node.js
 - JavaScript
-- Intl API para localización
 - ESModules
+- Intl API para localización
 
 ## Funcionalidades
 
 - Fetch de 50 personas entre 2005 y 2009
 - Filtrado por URL que termina en `.com`
 - Cálculo de edad desde fecha de nacimiento
-- Detección del continente desde el país
+- Detección del continente a partir del país
 - Estadísticas agrupadas por edad, género y continente
 
-## Ejecutar
+## Instrucciones para ejecutar
+
+1. Asegúrate de tener instalado Node.js en tu equipo.
+2. Si el proyecto tiene dependencias, instala los módulos necesarios:
 
 ```bash
-node index.js
+npm install
